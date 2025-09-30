@@ -59,5 +59,5 @@ Website ini menggunakan Tailwind CSS untuk membuat website kami mendukung light 
 
 ## Link Vercel
 
-[]
+[https://rpl-xi-b-uts-sept2025-kel1.vercel.app/]
 

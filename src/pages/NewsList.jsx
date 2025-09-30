@@ -20,20 +20,19 @@ const NewsList = () => {
   const MAX_PAGES = 10;
 
   useEffect(() => {
-    const fetchNews = async () => {
-      setLoading(true);
-      setError(null); // Reset error saat mulai fetch
-      try {
-        const response = await fetch('/api/cnn-news');
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const responseData = await response.json();
-        let articles = responseData.data || responseData || [];
-        if (!Array.isArray(articles)) {
-          console.error('API response is not an array:', articles);
-          articles = [];
-        }
+  const fetchNews = async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      const response = await fetch('/api/proxy-news');
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const responseData = await response.json();
+      let articles = responseData.data || responseData || [];
+      if (!Array.isArray(articles)) {
+        articles = [];
+      }
 
         let filteredData = articles;
         if (searchTerm) {

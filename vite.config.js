@@ -10,7 +10,7 @@ export default defineConfig({
       '/api': {
         target: 'https://berita-indo-api-next.vercel.app',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, '/api')
+        rewrite: (path) => path.replace(/^\/api\/proxy-news/, '/api/cnn-news')
       }
     }
   }

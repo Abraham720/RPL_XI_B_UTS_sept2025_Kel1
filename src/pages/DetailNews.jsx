@@ -17,7 +17,7 @@ const DetailNews = () => {
       setLoading(true)
       setError(null) // Reset error saat mulai fetch
       try {
-        const apiUrl = '/api/cnn-news'
+        const apiUrl = '/api/proxy-news'
         const response = await fetch(apiUrl)
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`)
         const responseData = await response.json()

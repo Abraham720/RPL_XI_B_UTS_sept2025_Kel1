@@ -1,20 +1,8 @@
-# Kelas RPL XI B
-# UTS 30-September-2025
-
-# Website Berita - Project Kelompok 1
-
-## Anggota Kelompok
-
-| Nama               | Kontribusi                                                                                                  |
-|--------------------|-------------------------------------------------------------------------------------------------------------|
-| [Abraham  (Ketua) ]| [62% Desain, 20% Error handling, Pagination, Sort, Search, React Router, Dark & Light Mode, Navbar, Footer] |
-| [M. Rifki Fadilah ]| [20% Desain, 80% Error handling]                                                                            |
-| [Nabilah Putri    ]| [8% Desain, Hero Section]                                                                                   |
-| [Rayshan Januar   ]| [10% Desain, Responsifitas Web]                                                                                         |
+# Website Berita                                                                                       |
 
 ## Deskripsi Project
 
-Website kami adalah website berita yang menampilkan daftar berita terutama berita indonesia yang terkini dengan fitur pencarian, detail berita, pagination, dan sort berita berdasarkan huruf.
+Website ini adalah website berita yang menampilkan daftar berita terutama berita indonesia yang terkini dengan fitur pencarian, detail berita, pagination, dan sort berita berdasarkan huruf.
 Website ini menggunakan Tailwind CSS untuk membuat website kami mendukung light mode dan dark mode dengan tampilan background gradasi yang menarik. Navigasi menggunakan React Router dan desain responsif menggunakan Tailwind CSS juga.
 
 ## Cara Instalasi dan Menjalankan Project
@@ -57,7 +45,4 @@ Website ini menggunakan Tailwind CSS untuk membuat website kami mendukung light 
 - postcss  
 - vite
 
-## Link Vercel
-
-[]
 

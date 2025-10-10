@@ -8,7 +8,7 @@ Website ini menggunakan Tailwind CSS untuk membuat website kami mendukung light 
 ## Cara Instalasi dan Menjalankan Project
 
 1. Clone repository ini ke komputer Anda  
-   git clone <url-repository-anda>
+   git clone <https://github.com/Abraham720/RPL_XI_B_UTS_sept2025_Kel1>
 
 2. Masuk ke folder project
    cd nama-folder-project
@@ -45,4 +45,7 @@ Website ini menggunakan Tailwind CSS untuk membuat website kami mendukung light 
 - postcss  
 - vite
 
+## Link Vercel
+
+[]
 
